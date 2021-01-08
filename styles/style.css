@@ -6,3 +6,166 @@ Green: #00B172
 White: #FFF
 
 */
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 58px;
+  width: 190px;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav li {
+  list-style-type: none;
+  padding-right: 5vw;
+  padding-top: 1vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+header {
+  background-image: url("../images/landing.jpg");
+  height: 100vh;
+  width: 100vw;
+
+  /* center and scale */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* center child */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  /* text */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+header h2 {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0px 10vw;
+}
+
+.about h4 {
+  font-size: 1.4em;
+  color: #00b172;
+  margin: 5vh auto;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+.about h3 {
+  text-align: center;
+  width: 270px;
+  font-size: 1.5em;
+  margin: 3vh auto 0;
+}
+
+.about .underline {
+  border-bottom: 3px solid #00b172;
+  margin: 0px auto;
+  width: 230px;
+}
+
+.about img {
+  width: 110px;
+  height: 90px;
+  margin-top: 4vh;
+}
+
+.articleContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.articleContainer article {
+  width: 20%;
+  text-align: center;
+}
+
+.features {
+  background-color: #00b172;
+  font-family: arial;
+  color: white;
+  padding: 70px;
+  box-sizing: border-box;
+  text-underline-position: under;
+  margin: 30px 30px 0 30px;
+}
+
+.features h3 {
+  line-height: 50px;
+  width: 390px;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.features h4 {
+  font-size: 1.5em;
+  padding: 10px 0 0 0;
+}
+
+.features p {
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+
+.features article {
+  width: 33%;
+}
+
+.features .underline {
+  border-bottom: 3px solid white;
+  width: 385px;
+}
+
+.kanyeWest {
+  width: 300px;
+  height: 500px;
+  float: right;
+  clear: both;
+}
+
+.whiteLogo {
+  width: 100px;
+  height: 100px;
+  float: right;
+  position: relative;
+  right: 200px;
+  top: 200px;
+}
